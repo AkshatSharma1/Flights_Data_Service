@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "E:\\Projects\\airline-booking-system\\logs\\.53810aa0d1ae7a284378ba23195a8ad42759e9a4-audit.json",
+    "files": [
+        {
+            "date": 1763920458502,
+            "name": "E:\\Projects\\airline-booking-system\\logs\\application-2025-11-23.log",
+            "hash": "72bec30aab5dec91e1db2f4e042b166aed537591d9b777f56e94d0e3e4207a79"
+        },
+        {
+            "date": 1763922676625,
+            "name": "E:\\Projects\\airline-booking-system\\logs\\application-2025-11-24.log",
+            "hash": "6ae5b21f6be3d6ffcb74a6eb89ea56ce96895bc3298fb2edbf25dc53513582f4"
+        },
+        {
+            "date": 1764009746994,
+            "name": "E:\\Projects\\airline-booking-system\\logs\\application-2025-11-25.log",
+            "hash": "f9e94aaa2fcb8c0e13bb20c17ccbb4fafec31670b9c9b54b6fbb590984dbf8bd"
+        }
+    ],
+    "hashType": "sha256"
+}

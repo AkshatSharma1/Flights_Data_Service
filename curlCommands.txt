@@ -1,0 +1,83 @@
+1. Test Validation Logic (The "Unhappy" Paths)
+Test A: Validate Capacity Limit (> 1000) This should fail with a 400 Bad Request and a message about the max value.
+
+curl -X POST http://localhost:3000/api/v1/airplanes \
+  -H "Content-Type: application/json" \
+  -d '{"modelNumber": "Boeing777", "capacity": 2000}'
+
+Test B: Validate Alphanumeric Model Number This uses a hyphen (-) which should fail isAlphanumeric.
+
+curl -X POST http://localhost:3000/api/v1/airplanes \
+  -H "Content-Type: application/json" \
+  -d '{"modelNumber": "A-320", "capacity": 180}'
+
+2. Test Standard CRUD (The "Happy" Paths)
+
+1. Create a Valid Airplane (POST)
+
+curl -X POST http://localhost:3000/api/v1/airplanes \
+  -H "Content-Type: application/json" \
+  -d '{"modelNumber": "AirbusA320", "capacity": 180}'
+Take note of the id returned in the response (e.g., id: 1).
+
+2. Get All Airplanes (GET)
+
+curl -v http://localhost:3000/api/v1/airplanes
+
+3. Get a Single Airplane (GET) Replace 1 with the actual ID from the POST response.
+
+curl -v http://localhost:3000/api/v1/airplanes/1
+
+4. Update an Airplane (PATCH) Let's change the capacity of airplane #1 to 200.
+
+curl -X PATCH http://localhost:3000/api/v1/airplanes/1 \
+  -H "Content-Type: application/json" \
+  -d '{"capacity": 200}'
+
+5. Delete an Airplane (DELETE)
+
+curl -X DELETE http://localhost:3000/api/v1/airplanes/1
+
+6. Verify Deletion (GET) This should now return a 404 Not Found error.
+
+curl -v http://localhost:3000/api/v1/airplanes/1
+
+
+---------------------------------------------------------------------- CITY Model ------------------------------------------------------
+1. Without name:
+curl -X POST http://localhost:3000/api/v1/cities \
+  -H "Content-Type: application/json" \
+  -d '{}'
+
+2. Create a valid city:
+curl -X POST http://localhost:3000/api/v1/cities \
+  -H "Content-Type: application/json" \
+  -d '{"name": "London"}'
+
+3. Get cities
+curl -v http://localhost:3000/api/v1/cities
+
+----------------------------------------------------------------------- Airport Model --------------------------------------------------
+1. Valid Airport
+curl -X POST http://localhost:3000/api/v1/airports \
+  -H "Content-Type: application/json" \
+  -d '{"name": "Indira Gandhi International Airport", "code": "DEL", "cityId": 1, "address": "New Delhi"}'
+
+2. Invalid data
+curl -X POST http://localhost:3000/api/v1/airports \
+  -H "Content-Type: application/json" \
+  -d '{"name": "Ghost Airport", "cityId": 999}'
+
+----------------------------------------------------------------------- Flight Model ---------------------------------------------------
+1. Create Flight
+curl -X POST http://localhost:3000/api/v1/flights \
+  -H "Content-Type: application/json" \
+  -d '{
+    "flightNumber": "UK-808",
+    "airplaneId": 1,
+    "departureAirportId": "DEL",  
+    "arrivalAirportId": "BOM",
+    "arrivalTime": "2024-12-25 14:00:00",
+    "departureTime": "2024-12-25 10:00:00",
+    "price": 4500
+  }'

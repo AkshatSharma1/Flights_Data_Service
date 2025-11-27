@@ -1,0 +1,303 @@
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 00:12:27"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 00:12:27"}
+{"error":"notNull Violation: Airport.code cannot be null","level":"error","message":"Something went wrong in the crud repo: create","service":"airline-booking-system","stack":"SequelizeValidationError: notNull Violation: Airport.code cannot be null\n    at InstanceValidator._validate (E:\\Projects\\airline-booking-system\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async InstanceValidator._validateAndRunHooks (E:\\Projects\\airline-booking-system\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (E:\\Projects\\airline-booking-system\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async Airport.save (E:\\Projects\\airline-booking-system\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Airport.create (E:\\Projects\\airline-booking-system\\node_modules\\sequelize\\lib\\model.js:1362:12)\n    at async AirportRepository.create (E:\\Projects\\airline-booking-system\\src\\repositories\\crud-repository.js:13:24)\n    at async Object.createAirport (E:\\Projects\\airline-booking-system\\src\\services\\airport-service.js:9:25)\n    at async createAirport (E:\\Projects\\airline-booking-system\\src\\controllers\\airport-controller.js:7:25)","timestamp":"2025-11-25 00:12:34"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 00:14:47"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 00:14:47"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 00:14:54"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 00:14:54"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 00:15:34"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 00:15:34"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 00:15:38"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 00:15:38"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 00:16:34"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 00:16:34"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 00:16:43"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 00:16:43"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:37:08"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:37:08"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:37:14"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:37:14"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:56:22"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:56:22"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:56:27"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:56:27"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:56:29"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:56:29"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:56:32"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:56:32"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:56:35"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:56:35"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:56:51"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:56:51"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:56:56"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:56:56"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:57:01"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:57:01"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:57:07"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:57:07"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:57:10"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:57:10"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:57:34"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:57:34"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:57:42"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:57:42"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:57:44"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:57:44"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:57:54"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:57:54"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:57:58"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:57:58"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:58:01"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:58:02"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:58:23"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:58:23"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:58:32"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:58:32"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:04"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:04"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:05"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:05"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:10"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:10"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:21"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:21"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:26"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:26"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:30"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:30"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:32"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:32"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:39"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:40"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:48"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:48"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:52"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:52"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:55"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:55"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 09:59:56"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 09:59:56"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:00:06"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:00:06"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:00:13"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:00:13"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:00:44"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:00:44"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:00:45"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:00:45"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:00:50"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:00:50"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:02:00"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:02:00"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:02:03"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:02:03"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:02:10"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:02:10"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:02:12"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:02:12"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:02:24"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:02:24"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:02:36"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:02:37"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:02:38"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:02:38"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:02:39"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:02:39"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:02:46"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:02:46"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:02:50"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:02:50"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:03:09"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:03:09"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:03:16"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:03:16"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:03:19"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:03:20"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:03:31"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:03:31"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:03:33"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:03:33"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:03:36"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:03:36"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:05:24"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:05:24"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:05:31"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:05:31"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:05:34"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:05:34"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:05:38"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:05:38"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:05:42"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:05:42"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:06:36"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:06:36"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:06:44"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:06:44"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:07:01"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:07:01"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:07:19"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:07:19"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:07:50"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:07:50"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:11:29"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:11:29"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:11:41"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:11:41"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:11:48"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:11:48"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:11:50"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:11:50"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:11:54"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:11:54"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:11:58"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:11:58"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:12:15"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:12:15"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 10:12:22"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 10:12:22"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:26:19"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:26:19"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:26:20"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:26:20"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:26:34"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:26:34"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:26:46"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:26:46"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:26:53"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:26:53"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:28:31"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:28:31"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:30:18"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:30:18"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:30:24"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:30:24"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:30:30"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:30:30"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:30:36"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:30:36"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:32:07"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:32:07"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:34:11"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:34:11"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:34:19"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:34:19"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:34:20"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:34:20"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:34:27"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:34:27"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:40:24"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:40:24"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:40:27"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:40:27"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:40:29"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:40:29"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:40:32"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:40:32"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:40:34"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:40:34"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:40:48"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:40:48"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:40:50"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:40:50"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:40:52"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:40:52"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:40:55"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:40:55"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:41:07"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:41:07"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:45:18"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:45:18"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:45:21"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:45:21"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:45:29"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:45:29"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:45:31"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:45:32"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:46:04"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:46:04"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:52:38"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:52:38"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:53:03"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:53:03"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:53:06"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:53:06"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 14:53:09"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 14:53:09"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:29:38"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:29:38"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:29:41"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:29:41"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:29:43"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:29:43"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:29:47"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:29:47"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:29:55"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:29:55"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:29:59"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:29:59"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:30:15"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:30:15"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:30:25"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:30:25"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:30:28"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:30:28"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:30:50"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:30:50"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:30:51"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:30:51"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:30:57"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:30:57"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:39:34"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:39:34"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:39:37"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:39:37"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:39:40"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:39:40"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:39:48"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:39:48"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:39:50"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:39:50"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:39:56"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:39:56"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:40:43"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:40:43"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:40:48"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:40:48"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:40:59"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:40:59"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:41:01"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:41:01"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:41:06"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:41:07"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:41:10"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:41:10"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:41:26"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:41:26"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:41:30"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:41:30"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:41:40"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:41:40"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:41:43"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:41:43"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:42:16"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:42:16"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:42:22"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:42:22"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:42:39"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:42:39"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:42:41"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:42:41"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:42:49"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:42:49"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:43:08"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:43:08"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:43:24"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:43:24"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:43:29"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:43:29"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:49:58"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:49:58"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:50:05"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:50:05"}
+{"level":"info","message":"🚀 Server running on port 3000 in development mode","service":"airline-booking-system","timestamp":"2025-11-25 15:59:28"}
+{"level":"info","message":"✅ MySQL Database connected successfully","service":"airline-booking-system","timestamp":"2025-11-25 15:59:28"}
