@@ -6,15 +6,16 @@ const { SuccessReponse, ErrorResponse } = require("../utils/common");
 async function createFlight(req, res) {
     try {
         const flight = await FlightService.createFlight({
-            flightNumber: req.body.flightNumber,
-            airplaneId: req.body.airplaneId,
-            departureAirportId: req.body.departureAirportId,
-            arrivalAirportId: req.body.arrivalAirportId,
-            arrivalTime: req.body.arrivalTime,
-            departureTime: req.body.departureTime,
-            boardingGate: req.body.boardingGate,
-            price: req.body.price
-        })
+          flightNumber: req.body.flightNumber,
+          airplaneId: req.body.airplaneId,
+          departureAirportId: req.body.departureAirportId,
+          arrivalAirportId: req.body.arrivalAirportId,
+          arrivalTime: req.body.arrivalTime,
+          departureTime: req.body.departureTime,
+          boardingGate: req.body.boardingGate,
+          price: req.body.price,
+          totalSeats: req.body.totalSeats,
+        });
 
         SuccessReponse.data = flight;
         return res.status(StatusCodes.CREATED).json(SuccessReponse);
