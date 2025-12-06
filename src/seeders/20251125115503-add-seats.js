@@ -23,10 +23,10 @@ module.exports = {
         }
     }
 
-    await queryInterface.bulkInsert('Seats', seats);
+    await queryInterface.bulkInsert("seats", seats);
   },
 
   async down (queryInterface, Sequelize) {
-    await queryInterface.bulkDelete('Seats', { airplane_id: 1 });
+    await queryInterface.bulkDelete("seats", { airplane_id: 1 });
   }
 };

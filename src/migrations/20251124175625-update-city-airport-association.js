@@ -9,17 +9,17 @@ module.exports = {
      * Example:
      * await queryInterface.createTable('users', { id: Sequelize.INTEGER });
      */
-    await queryInterface.addConstraint('Airports',{
-      type: 'FOREIGN KEY',
-      name: 'city_fk_constraint',
-      fields: ['city_id'],
-      references:{
-        table: 'Cities',
-        field: 'id'
+    await queryInterface.addConstraint("airports", {
+      type: "FOREIGN KEY",
+      name: "city_fk_constraint",
+      fields: ["city_id"],
+      references: {
+        table: "cities",
+        field: "id",
       },
       // onUpdate: 'CASCADE',
-      onDelete: 'CASCADE'
-    })
+      onDelete: "CASCADE",
+    });
   },
 
   async down (queryInterface, Sequelize) {
@@ -29,6 +29,6 @@ module.exports = {
      * Example:
      * await queryInterface.dropTable('users');
      */
-    await queryInterface.removeConstraint('Airports','city_fk_constraint')
+    await queryInterface.removeConstraint("airports", "city_fk_constraint");
   }
 };

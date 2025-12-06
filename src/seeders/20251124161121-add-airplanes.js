@@ -14,7 +14,7 @@ module.exports = {
     */
 
     //Since seederd donot add createdAt and updatedAt automatically, we need to manually add
-    await queryInterface.bulkInsert('Airplanes', [
+    await queryInterface.bulkInsert('airplanes', [
       {
         model_number: 'Boeing737',
         capacity: 300,
@@ -58,7 +58,7 @@ module.exports = {
     // We use Op.or to delete only the rows we inserted, 
     // to avoid wiping data that might have been added manually.
     const Op = Sequelize.Op;
-    await queryInterface.bulkDelete('Airplanes', { 
+    await queryInterface.bulkDelete('airplanes', { 
       model_number: { [Op.in]: ['Boeing737', 'AirbusA320', 'Boeing777', 'Boeing747', 'AirbusA330'] } 
     });
   }

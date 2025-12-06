@@ -16,17 +16,20 @@ module.exports = (sequelize, DataTypes) => {
       })
     }
   }
-  City.init({
-    name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      unique: true
+  City.init(
+    {
+      name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
+      },
+    },
+    {
+      sequelize,
+      modelName: "City",
+      tableName: "cities",
+      underscored: true,
     }
-  }, {
-    sequelize,
-    modelName: 'City',
-    tableName: 'Cities',
-    underscored: true
-  });
+  );
   return City;
 };

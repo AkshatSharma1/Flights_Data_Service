@@ -13,30 +13,33 @@ module.exports = (sequelize, DataTypes) => {
       });
     }
   }
-  Seat.init({
-    airplaneId: {
-      type: DataTypes.INTEGER,
-      allowNull: false
+  Seat.init(
+    {
+      airplaneId: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+      row: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+      },
+      col: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      type: {
+        type: DataTypes.ENUM,
+        values: [BUSINESS, ECONOMY, PREMIUM_ECONOMY, FIRST_CLASS],
+        defaultValue: ECONOMY,
+        allowNull: false,
+      },
     },
-    row: {
-      type: DataTypes.INTEGER,
-      allowNull: false
-    },
-    col: {
-      type: DataTypes.STRING,
-      allowNull: false
-    },
-    type: {
-      type: DataTypes.ENUM,
-      values: [BUSINESS, ECONOMY, PREMIUM_ECONOMY, FIRST_CLASS],
-      defaultValue: ECONOMY,
-      allowNull: false
+    {
+      sequelize,
+      modelName: "Seat",
+      tableName: "seats",
+      underscored: true,
     }
-  }, {
-    sequelize,
-    modelName: 'Seat',
-    tableName: 'Seats',
-    underscored: true,
-  });
+  );
   return Seat;
 };

@@ -44,7 +44,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Flight',
-    tableName: 'Flights', //for docker
+    tableName: 'flights', //for docker
     underscored: true
   });
   return Flight;

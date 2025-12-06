@@ -5,47 +5,48 @@ const { BUSINESS, ECONOMY, PREMIUM_ECONOMY, FIRST_CLASS } = Enums.SEAT_TYPE;
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('Seats', {
+    await queryInterface.createTable("seats", {
       id: {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
       },
       airplane_id: {
         type: Sequelize.INTEGER,
         allowNull: false,
         references: {
-          model: 'Airplanes',
-          key: 'id'
+          model: "airplanes",
+          key: "id",
         },
-        onDelete: 'CASCADE' // If Airplane is deleted, delete its seats
+        onDelete: "CASCADE", // If Airplane is deleted, delete its seats
       },
       row: {
         type: Sequelize.INTEGER,
-        allowNull: false
+        allowNull: false,
       },
       col: {
         type: Sequelize.STRING, // 'A', 'B', 'C'
-        allowNull: false
+        allowNull: false,
       },
-      type: { // classType
+      type: {
+        // classType
         type: Sequelize.ENUM,
         values: [BUSINESS, ECONOMY, PREMIUM_ECONOMY, FIRST_CLASS],
         defaultValue: ECONOMY,
-        allowNull: false
+        allowNull: false,
       },
       created_at: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       updated_at: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+      },
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Seats');
+    await queryInterface.dropTable("seats");
   }
 };

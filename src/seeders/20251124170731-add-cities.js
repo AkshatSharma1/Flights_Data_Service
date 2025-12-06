@@ -3,44 +3,53 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up (queryInterface, Sequelize) {
-    await queryInterface.bulkInsert('Cities', [
+    await queryInterface.bulkInsert("cities", [
       {
-        name: 'New Delhi',
+        name: "New Delhi",
         created_at: new Date(),
-        updated_at: new Date()
+        updated_at: new Date(),
       },
       {
-        name: 'Mumbai',
+        name: "Mumbai",
         created_at: new Date(),
-        updated_at: new Date()
+        updated_at: new Date(),
       },
       {
-        name: 'Bangalore',
+        name: "Bangalore",
         created_at: new Date(),
-        updated_at: new Date()
+        updated_at: new Date(),
       },
       {
-        name: 'London',
+        name: "London",
         created_at: new Date(),
-        updated_at: new Date()
+        updated_at: new Date(),
       },
       {
-        name: 'Paris',
+        name: "Paris",
         created_at: new Date(),
-        updated_at: new Date()
+        updated_at: new Date(),
       },
       {
-        name: 'New York',
+        name: "New York",
         created_at: new Date(),
-        updated_at: new Date()
-      }
+        updated_at: new Date(),
+      },
     ]);
   },
 
   async down (queryInterface, Sequelize) {
     const Op = Sequelize.Op;
-    await queryInterface.bulkDelete('Cities', {
-      name: { [Op.in]: ['New Delhi', 'Mumbai', 'Bangalore', 'London', 'Paris', 'New York'] }
+    await queryInterface.bulkDelete("cities", {
+      name: {
+        [Op.in]: [
+          "New Delhi",
+          "Mumbai",
+          "Bangalore",
+          "London",
+          "Paris",
+          "New York",
+        ],
+      },
     });
   }
 };
